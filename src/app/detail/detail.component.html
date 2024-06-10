@@ -1,0 +1,33 @@
+<div class="max-w-7xl w-full mx-auto my-0 px-4 pt-6" >
+  <section >
+    <p [routerLink]="['/']" class="mb-1 underline cursor-pointer" >Home</p>
+    <p class=" text-4xl" >{{artistDetail.name}}</p>
+  </section>
+
+  <section class="my-2 grid lg:grid-cols-[auto_1fr] mt-6 gap-4 " >
+    <div class=" lg:w-[18.625rem]  h-[28rem] rounded-lg overflow-hidden" >
+      <img class="object-cover w-full h-full" [src]="artistDetail.avatarUrl" >
+    </div>
+    <div class="whitespace-pre-line" [innerHTML]="artistDetail.about" ></div>
+  </section>
+
+  <section class="my-8" >
+    <h2 class="text-2xl mb-5" >Obras</h2>
+
+    <div class="grid justify-between my-2 grid-cols-1 lg:grid-cols-3 gap-20 md:gap-6" >
+      <ng-container *ngFor="let item of artistDetail.assets">
+        <article>
+          <img [src]="item.imageUrl" >
+          <div>
+            <p class="mt-4 font-bold" >{{item.title}}</p>
+            <p class="mt-2" [innerHTML]="item.details"></p>
+          </div>
+        </article>
+      </ng-container>
+
+    </div>
+  </section>
+
+  <p class="text-center text-[12px] opacity-35 py-1 mt-16" >Creada con el toque mágico de  <a target="_blank" class="underline" href="https://gustavoeliasexe.vercel.app/">gustavoeliasexe</a> </p>
+
+</div>

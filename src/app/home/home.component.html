@@ -1,0 +1,111 @@
+<main>
+  <div class="bg-[#fafaff] p-4 uppercase text-center text-[#1c1c1c]">
+    Rotaract & Rotary Choloma
+  </div>
+  <!--Hero-->
+  <section class="min-h-screen cover text-[#fafaff] h-full flex  items-center">
+    <div class=" max-w-7xl w-full mx-auto my-0 flex  justify-center flex-col items-center text-center px-4">
+      <h1 class="text-7xl mb-8">Expo - venta de Arte</h1>
+
+    </div>
+  </section>
+
+  <section class="max-w-7xl w-full mx-auto my-0 py-6 px-4 lg:py-20 relative" >
+    <h1 class="text-4xl">¿Quienes somos? </h1>
+    <div class="gap-2 items-center absolute right-0 top-20 hidden lg:flex" >
+      <img class="w-48" src="../../assets/RotaractLogo_ES21.png">
+      <img class="w-48" src="../../assets/RotaryLogo_ES21.png">
+    </div>
+    <br>
+    ROTARY INTERNACIONAL
+    <br><br>
+    Rotary es una red Mundial compuesta Por vecinos, amigos, lideres y personas
+    profesionales dedicadas a solucionar problemas, quienes ven un planeta en que
+    las personas se unen y toman accion para generar un cambio perdurable en el
+    mundo, sus comunidades y en si mismos.
+    <br>
+    Como comunidad rotaria asumimos la responsabilidad de tomar accion, a fin de abordar los problemas mas perniciosos
+    que afectan a la humanidad. A traves de las
+    siguientes areas de interes:
+    <br>
+    <br>
+    <ul class="list-disc pl-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <li>Promovemos la paz</li>
+      <li>Combatimos enfermedades</li>
+      <li>Protegemos a madres e hijos</li>
+      <li>Fomentamos la educación</li>
+      <li>Desarrollamos las economías locales</li>
+      <li>Protegemos el medio ambiente</li>
+      <li>Proporcionamos acceso al agua salubre y fomentamos buenos hábitos de higiene</li>
+    </ul>
+    <br class="lg:hidden block" >
+    <div class="gap-2 items-center flex lg:hidden" >
+      <img class="w-48" src="../../assets/RotaractLogo_ES21.png">
+      <img class="w-48" src="../../assets/RotaryLogo_ES21.png">
+    </div>
+    <br class="lg:hidden block" >
+  </section>
+
+  <!--Content-->
+  <section class="max-w-7xl w-full mx-auto my-0 px-4 py-6 pb-4 lg:pb-20" >
+    <h1 class="text-4xl">Artistas </h1>
+    <br>
+    <section class=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+      <ng-container *ngFor="let item of dataService.allProfiles()">
+        <article [routerLink]="['/'+item.idProfile]" class="cursor-pointer">
+          <div class=" h-56 lg:h-[28rem] rounded-lg overflow-hidden">
+            <img class="object-cover w-full h-full grayscale hover:grayscale-0" [src]="item.avatarUrl">
+          </div>
+          <p class="mt-2">{{item.name}}</p>
+        </article>
+      </ng-container>
+
+    </section>
+  </section>
+
+  <!--Footer-->
+  <footer class=" max-w-7xl w-full mx-auto my-0">
+    <section class="border-t border-[#1c1c1c] mb-8 px-4 lg:px-0">
+      <P class="text-4xl mt-4 mb-1">Contactanos</P>
+      <section class="flex flex-col lg:flex-row lg:justify-between">
+        <p class=" mb-2">Choloma, Cortes Honduras</p>
+
+        <div class="flex flex-col gap-2 mt-5 lg:mt-0">
+          <a target="_blank" href="https://www.instagram.com/club_rotaract_choloma?igsh=dDcxZTZlODZidTZq"
+            class="flex items-center gap-2">
+            <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg" color="#000000">
+              <path
+                d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path
+                d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"
+                stroke="#000000" stroke-width="1.5"></path>
+              <path d="M17.5 6.51L17.51 6.49889" stroke="#000000" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round"></path>
+            </svg>
+            <p>Club Rotaract de Choloma</p>
+          </a>
+          <a target="_blank" href="https://www.instagram.com/clubrotariodecholoma?igsh=MTE0aWJmb3c0ZTNrZg=="
+            class="flex items-center gap-2">
+            <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg" color="#000000">
+              <path
+                d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path
+                d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"
+                stroke="#000000" stroke-width="1.5"></path>
+              <path d="M17.5 6.51L17.51 6.49889" stroke="#000000" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round"></path>
+            </svg>
+            <p>Club Rotario de Choloma</p>
+          </a>
+        </div>
+      </section>
+    </section>
+
+    <p class="text-center text-[12px] opacity-35 py-1">Creada con el toque mágico de <a target="_blank"
+        class="underline" href="https://gustavoeliasexe.vercel.app/">gustavoeliasexe</a> </p>
+  </footer>
+</main>
