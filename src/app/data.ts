@@ -120,7 +120,7 @@ No he recibido estudios sobre dibujo y pintura, Dios me a dado una gran capacida
 Me gusta todo tipo de pintura…. Ya sea muralismo, realismo, abstracto pero lo mío es el realismo o hiperrealismo… que espero poder mejorar y aprender mucho más.
 Comencé a pintar cuadros el 2021 que fue producto de la pandemia, en la cual tenía tiempo de ocio que dediqué a la pintura.
 Me considero principiante ya que me falta mucho para llegar al nivel de otros artistas no e participado en mucho eventos, únicamente una exposición en la UNAH-VS y en el parque central de Choloma.`,
-    avatarUrl: 'https://placehold.co/300x400/4287f5/FFF',
+    avatarUrl: '../assets/dariela/dariela-image.jpg',
     assets: [
       {
         id: 20,
@@ -132,7 +132,7 @@ Me considero principiante ya que me falta mucho para llegar al nivel de otros ar
         id: 21,
         imageUrl: '../assets/dariela/dariela-2.jpeg',
         title: 'Guacamaya',
-        details: `Dimensiones: 70x100 CM <br> Técnica: Acrílico <br> Precio:L.6,000.00`
+        details: `Dimensiones: 70x100 CM <br> Técnica: Panteísmo  <br> Precio:L.6,000.00`
       },
       {
         id: 22,
@@ -179,7 +179,7 @@ Me considero principiante ya que me falta mucho para llegar al nivel de otros ar
     en importantes proyectos del 
     muralismo a nivel nacional, dejando así su maravillosa obra en Cantarranas, F.M. (pueblo caracterizado por sus murales y esculturas públicas) teniendo participación en los dos eventos más importantes para dicho pueblo. En el Guancasco muralista del año 2019, y en el primer evento del Muralibro el año 2021, año pandémico, en el que también se requirió de su participación para el primer encuentro muralista en Arada, Santa Bárbara, La Ciudad de La Ceiba, Macuelizo S.B. etc., dejando su marca artística también en El Primer evento Internacional de Muralismo en Dulce Nombre de Copán.Caracterizado por sus aportes y donaciones también por sus movimientos Sociales de Muralismo #nomemaltrates y #niunamenos.\n
     Además del muralismo,  se dedica a la pintura de caballete, pintura textil artística, pintura sobre vidrio, sobre metal, sobre plástico etc.`,
-    avatarUrl: 'https://placehold.co/300x400/4287f5/FFF',
+    avatarUrl: '../assets/dennis/dennis-image.jpg',
     assets: [
       {
         id: 61,
@@ -208,13 +208,19 @@ Me considero principiante ya que me falta mucho para llegar al nivel de otros ar
     Desde su niñez vivió  en un entorno urbano en diferentes barrios y colonias de las ciudades de Tegucigalpa y Comayagüela y en cortos periodos de tiempo en diferentes pueblos del área rural del país. \n
     Su trabajo contiene métodos e influencias del impresionismo, logrando sus obras a través del estudio de la luz en la pintura al aire libre, como la manera más sincera que entiende para captar y transmitir la esencia de las cosas, de los lugares y su atmósfera, de las personas y su entorno, exaltando la belleza de lo cotidiano, donde el paisaje urbano cobra beligerancia al estar a su alcance inmediato en esa constante búsqueda de la síntesis de la forma y el estudio del color a través de manchas sueltas y pinceladas llenas de energía.
     \nHa participado en festivales de pintura al aire libre e impartido talleres en Costa Rica (2022), Primer Festival de Arte Publico en Sopó, Colombia (2022), Festival Fabrianoin Acquarello en Italia (2023) y una enriquecida lista de sus participaciones a nivel nacional, colaborando en exposiciones colectivas con instituciones como el IHCH, ICHI, GNA, la AHAP… e impartiendo talleres de acuarela del natural en la ENBA (2022) y otros espacios de carácter privado.`,
-    avatarUrl: 'https://placehold.co/300x400/4287f5/FFF',
+    avatarUrl: '../assets/palack/palack-image.jpg',
     assets: [
       {
         id: 71,
         imageUrl: '../assets/palack/palack-1.jfif',
         title: 'Catedral Metropolitana San Pedro Apóstol',
         details: `Medidas: 50x64 CM <br> Técnica: Acuarela <br> Precio:L.16,500.00`
+      },
+      {
+        id: 71,
+        imageUrl: '../assets/palack/palack-2.jpg',
+        title: 'Desde el Boulevard Morazán',
+        details: `Dimensiones: 24 x 34 cm <br> Técnica: Acuarela <br> Precio: L.6,500.00`
       },
     ]
   },
