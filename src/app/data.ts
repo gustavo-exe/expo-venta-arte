@@ -18,10 +18,21 @@ export const data:UserProfile[] = [
         details: `Dimensiones: 28 x 36 plg <br> Técnica: Textura y escultura con relieve <br> Precio:L.17,500.00`
       },
       {
-        id: 100,
+        id: 10241,
         imageUrl: '../assets/dina/dina-2.jpg',
         title: 'Serenidad nocturna',
         details: `Dimensiones: 28 x 36 plg <br> Técnica: Textura con relieve <br> Precio:L.17,500.00`
+      },
+      {
+        id: 1052560,
+        imageUrl: '../assets/dina/dina-3.jpg',
+        title: 'Elegancia desenfocada',
+        details: `Dimensiones: 11x15.5plg <br> Técnica: Relieve con pasta para modelar <br> Precio:L.4,000.00`
+      },{
+        id: 10033,
+        imageUrl: '../assets/dina/dina-4.jpg',
+        title: 'Susurros de primavera',
+        details: `Dimensiones: 11x15.5 plg <br> Tecnica: difuminado y relieve <br> Precio: L.2,800.00`
       },
     ]
   },
